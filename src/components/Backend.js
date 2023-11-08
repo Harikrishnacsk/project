@@ -7,7 +7,7 @@ export default function Backend(){
     return (
         <>
           <h3>im am a {role}</h3>
-          <button onClick={() => setRole("frontend developer")}>change role</button>
+          <button onClick={() => setRole("frontend developer")}>change</button>
         </>
     )
           
