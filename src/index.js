@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import List from './components/List';
-import MyForm from './components/MyForm';
-import Backend from './components/Backend';
+import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-   {/* <Garage/> */}
-   <Backend/>
+  <>  
+   <App/>
   </>
 );
 

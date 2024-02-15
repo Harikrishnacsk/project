@@ -1,0 +1,23 @@
+.myaccount-left{
+     margin : 50px;
+     float: left;
+}
+
+
+.borderbox-sizeprofile{
+     border : solid 1px;
+}
+.measurements{
+     display: flex;
+     margin: 10px;     
+}
+
+.measurementscol{
+     margin: 20px;
+
+}
+
+.othermeasurements{
+     display: flex;
+     align-items: baseline;
+}

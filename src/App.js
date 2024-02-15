@@ -1,9 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./MyAccounts/NavBar";
+import Profile from "./MyAccounts/Profile";
+import GiftCardAndCoupon from "./MyAccounts/GiftCardAndCoupon";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SizeProfile from "./MyAccounts/SizeProfile";
+
 
 function App() {
   return (
-     <h1>React course</h1>
+     <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<NavBar/>}>
+      <Route index element={<Profile/>}/>
+      <Route path="giftcardandcoupon" element={<GiftCardAndCoupon/>}/>
+      <Route path="sizeprofile" element={<SizeProfile/>}/>
+     </Route>
+     </Routes>
+     </BrowserRouter>
   );
 }
 
