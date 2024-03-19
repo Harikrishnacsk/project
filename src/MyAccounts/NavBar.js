@@ -13,10 +13,12 @@ const NavBar = () => {
         <nav className="profilenav">
             <ul>
                 <li>
-                  <Link to="/">Profile</Link>
+                  <Link to="/profile">Profile</Link>
                 </li>
                 <li><a href="">My Orders</a></li>
-                <li><a href="">Manage Address</a></li>
+                <li>
+                  <Link to="/manageaddress">Manage Address</Link>
+                </li>
                 <li>
                   <Link to="/giftcardandcoupon">Gift Card and Coupon</Link>
                 </li>
